@@ -1,0 +1,14 @@
+<div class="container mt-3">
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" [src]="currentHero?.image?.url" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">{{currentHero?.name}}</h5>
+            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            <button (click)="previous()" type="button" class="btn btn-danger btn-sm mt-4 float-left">Previous</button>
+            <button (click)="next()" type="button" class="btn btn-warning btn-sm mt-4 float-right">Next</button>
+        </div>
+    </div>
+
+</div>
