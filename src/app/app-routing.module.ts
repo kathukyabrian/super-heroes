@@ -5,6 +5,7 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 
 const routes: Routes = [
+  // we just create objects with path and component......
   {
     path: 'login',
     component: LoginComponent

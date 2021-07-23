@@ -20,6 +20,7 @@ import { HeroComponent } from './hero/hero.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    // added this so as to be able to use http client
     HttpClientModule
   ],
   providers: [],
